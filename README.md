@@ -86,5 +86,95 @@ There is no currency symbol in the price area.
 
 ### Bug Image
 
-<img src="Images/currency.PNG" witdh="400" height="400" >  
+<img src="Images/currency.PNG" witdh="400" height="400" > 
+
+-----------------
+
+## Products name do not change after changing the language
+
+**Priority & Severity**
+P3 – Low
+
+**Description**
+After changing the website display language, the products name reamin on the english language
+
+**Steps to reproduce**
+
+1. Go to https://juice-shop.herokuapp.com/#/
+2. Change the display language
+3. Look at the name of products
+
+**Expected result**
+The product name should change based on the selected language
+
+**Actual result**
+The product name remain on the english language when selecting another display language
+
+### Bug Image
+<img src="Images/language.PNG" witdh="400" height="400" > 
+
+-----------------
+
+
+## Wrong video in ,,About Us" section on demoblaze.com store 
+
+**Priority & Severity**
+
+P4 – low
+
+**Description**
+
+In „About Us” section is a video that doesn’t describe the store. A course in IT is described in the video. 
+
+**Steps to reproduce**
+1. Go to http://www.demoblaze.com/index.html 
+2. Click on the section ,,About Us”
+3. Click on the video
+
+**Expected result**
+
+The video should describe the store.
+
+**Actual result**
+
+The video describe a course in it. 
+
+### Bug Image
+
+<img src="Images/Aboutus.PNG" witdh="400" height="400" > 
+
+-----------------
+
+## Order only with the name and number of the card
+**Priority & Severity**
+
+P1 – High
+
+**Description**
+
+You can place an order without going through all the necessary information. In order form you can complete just the name and number of the card and to press  „Order” button.
+
+**Steps to reproduce**
+1. Go to https://www.demoblaze.com/index.html  
+2. Sing up to the site
+3. Log in to the site
+4. Add a product to the cart
+5. Press the ,,Cart” button
+6. Press the ,,Place order” button
+7. Fill in ,,Name” and ,,Credit card”  fields
+8. Press ,,Order” button
+
+**Expected result**
+
+You will not be able to order.
+
+**Actual result**
+
+The order is placed.
+
+<img src="Images/Placeorder.PNG" witdh="400" height="400" > 
+
+<img src="Images/Orderconfirm.PNG" witdh="400" height="400" > 
+
+-----------------
 
