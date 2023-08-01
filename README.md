@@ -28,5 +28,5 @@ The product should have a quantity field with a unit of measure.
 The product doesn’t have a quantity field.
 ### Bug Image
 
-<img src="Images/StoreBugNoQuantity.png" witdh="400" height="400" >
+<img src="Images/StoreBugNoQuantity.PNG" witdh="400" height="400" >
 
