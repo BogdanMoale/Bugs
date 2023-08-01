@@ -49,9 +49,11 @@ When we try the contact page, we can press send message without filling in the n
 6. You will get the confirmatin "Thanks for the message"
 
 **Expected result**
+
 The fields "Contact Email", "Contact Name" and "Message" should be completed in order to send a message
 
 **Actual result**
+
 The fields "Contact Email", "Contact Name" and "Message" do not have to be completed in order to send a message
 
 ### Bug Image
