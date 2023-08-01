@@ -172,9 +172,99 @@ You will not be able to order.
 
 The order is placed.
 
+### Bug Image
+
 <img src="Images/Placeorder.PNG" witdh="400" height="400" > 
 
 <img src="Images/Orderconfirm.PNG" witdh="400" height="400" > 
 
 -----------------
 
+# Wrong message displayed for the value of the key ,,id''
+
+**Priority & Severity**
+
+P5 – Low
+
+**Description**
+
+When we access the API with the ,,id” parameter and a value that is not in the table, we receive a positive message.
+
+**Steps to reproduce**
+1. Go to: http://qachallenge.ro/api/test_api.php?action=fetch_all in Postman 
+2. Send the endpoint
+3. Add an id that is not in the response for the endpoint of the next step
+4. Go to http://qachallenge.ro/api/test_api.php?action=delete&id=1000  in Postman 
+5. Send the endpoint
+6. Look at the message
+
+**Expected result**
+
+The message should be negative.
+
+**Actual result**
+
+The message is positive.
+
+### Bug Image
+
+<img src="Images/APIerr.PNG" witdh="400" height="400" > 
+
+-----------------
+
+## Values of the keys “base” and “main” are not translated in Romanian
+
+**Priority & Severity**
+
+P5 – Low
+
+**Description**
+
+When we access the API with the parameter ,,lang”  and the value ,,ro”, the values of the keys ,,base” and ,,main”  are not translated in Romanian.
+
+**Steps to reproduce**
+
+1. Go to api.openweathermap.org/data/2.5/weather?q=London&appid=0cd1604bc507bb598a3f12fa26d68fa0&units=metric&lang=ro in Postman
+2. Look at the ,,base” and ,,main” keys
+
+**Expected result**
+
+The values of the keys should be translated.
+
+**Actual result**
+
+The values are not translated.
+
+### Bug Image
+
+<img src="Images/APIerr1.PNG" witdh="400" height="400" >
+
+
+-----------------
+
+## On the order form important fields are missing
+
+**Priority & Severity**
+
+P1 – Normal
+
+**Description**
+
+On the order form we can’t find in the credit card area the fields ,,Full name”, ,,Card number”, ,,CVC or CVS”, ,,Expiration data”. The ,,Street & number” field are also missing.
+
+**Steps to reproduce**
+1. Go to https://www.demoblaze.com/index.html  
+2. Sing up to the site
+3. Log in to the site
+4. Add a product to the cart
+5. Press the ,,Cart” button
+6. Press the ,,Place order” button
+7. Look at the form
+
+**Expected result**
+
+The fields will be there.
+
+**Actual result**
+
+The fields are not there.
