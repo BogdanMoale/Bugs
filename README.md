@@ -61,5 +61,30 @@ The fields "Contact Email", "Contact Name" and "Message" do not have to be compl
 
 -----------------
 
+## No currency symbol for products
 
+**Priority & Severity**
+
+P3 – Low
+
+**Description**
+
+Products don’t have a currency symbol in the price area on the website.
+
+**Steps to reproduce**
+
+1. Go to https://juice-shop.herokuapp.com/#/
+2. Look in the price area for products
+
+**Expected result**
+
+There should be a currency symbol in the price area.
+
+**Actual result**
+
+There is no currency symbol in the price area.
+
+### Bug Image
+
+<img src="Images/currency.PNG" witdh="400" height="400" >  
 
